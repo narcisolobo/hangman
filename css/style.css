@@ -1,0 +1,16 @@
+#buttons {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+
+#word {
+  margin-top: -3rem;
+}
+
+.full-width {
+  grid-column: 1 / span 6;
+}
+
+.middle-two {
+  grid-column: 3 / span 2;
+}
