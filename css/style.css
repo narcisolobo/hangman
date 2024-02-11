@@ -1,16 +1,25 @@
-#buttons {
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --font-display: 'Anton', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+  --color-neutral: #f0e3ba;
+  --color-dark: #303030;
+  --color-primary: #8ab7cd;
 }
 
-#word {
-  margin-top: -3rem;
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-neutral);
 }
 
-.full-width {
-  grid-column: 1 / span 6;
+.container {
+  padding: 1rem;
 }
 
-.middle-two {
-  grid-column: 3 / span 2;
+.title {
+  font-family: var(--font-display);
+  text-align: center;
+  color: var(--color-dark);
+  background-color: var(--color-primary);
 }
